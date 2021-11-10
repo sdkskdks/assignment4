@@ -57,6 +57,7 @@ Note: *this needs a windows user to test and confirm*
 Download geckodriver from the above link and extract it to `C:\Windows\System32\` (or anything inside your Path environment variable).
 
 # Usage examples
+```python   
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
@@ -73,7 +74,7 @@ class User(db.Model):
 
     def __repr__(self):
         return '<User %r>' % self.username
-        
+ ``` 
 # Example
 ```python   
 for Anchor in news:
